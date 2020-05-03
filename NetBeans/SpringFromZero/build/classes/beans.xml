@@ -1,0 +1,86 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop = "http://www.springframework.org/schema/aop"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans
+          http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    
+    
+    
+    <bean id="userService" class="springfromzero.service.UserServiceImpl"/>
+    <bean id="log" class="springfromzero.aop.LogAop" />
+    <bean id="logafter" class="springfromzero.aop.AfterLogAop" />
+    <aop:config>
+        <aop:pointcut id="pointcut" expression="execution(* springfromzero.service.UserServiceImpl.*(..))"></aop:pointcut>
+        <aop:advisor advice-ref="log" pointcut-ref="pointcut"></aop:advisor>
+        <aop:advisor advice-ref="logafter" pointcut-ref="pointcut"></aop:advisor>
+    </aop:config>
+    
+    
+    <aop:config>
+        <aop:aspect>
+            <aop:pointcut id="pointcut1" expression="execution(* springfromzero.service.*.*(..))"/>
+            <aop:before method="before" pointcut-ref="pointcut"/>
+            <aop:after method="after" pointcut-ref="pointcut"/>
+        </aop:aspect>
+    </aop:config>
+    
+    <aop:aspectj-autoproxy/>
+     
+    <!--bean = java object， 由string定义和管理-->
+    <!--    <bean name="hello" class = "springfromzero.bean.Hello">
+        <property name="name" value="chen"></property>
+    </bean>
+           xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
+    <bean name="hello2" class = "springfromzero.bean.Hello">
+        <property name="name" value="jialai"></property>
+    </bean>
+   
+        <bean name="mysqlDao" class="springfromzero.dao.UserDaoMysqlImpl" />
+    <bean name="oracleDao" class="springfromzero.dao.UserDaoOracleImpl" />
+    <bean name="service" class="springfromzero.service.UserServiceImpl">
+        <property name="userDao" ref="oracleDao"></property>
+    </bean>-->
+    
+    <!--    <bean name="user" class="springfromzero.dao.User" scope="singleton">
+        <property name="userName" value="chenliu"></property>
+    </bean>-->
+    
+    <!--    <bean id="user1" class="springfromzero.dao.User" scope="prototype">
+        <constructor-arg index="1" value="caicai"></constructor-arg>
+        <constructor-arg index="0" value="99"></constructor-arg>
+    </bean>
+    
+    <bean id="user2" class="springfromzero.dao.User" scope="prototype">
+        <constructor-arg name="id" value="999"/>
+        <constructor-arg name="userName" value="phoebe"></constructor-arg>
+    </bean>
+    
+    <bean id="user3" name="u1;u2;u3" class="springfromzero.factory.UserStaticFactory" scope="singleton" factory-method="newInstance">
+        <constructor-arg index="0" value="222"/>
+        <constructor-arg index="1" value="duoduo"/>
+    </bean>
+    
+    <bean id="userfactory" class="springfromzero.factory.UserDynamicFactory"/>
+    <bean id="user" factory-bean="userfactory" factory-method="newInstance" scope="singleton">
+        <constructor-arg index="0" value="duoduoduoduo"/>
+    </bean>-->
+    <!--    <bean name="user"  class="springfromzero.dao.User" p:email="ss" p:userName="llol"></bean>
+    <bean name="user1"  class="springfromzero.dao.User" c:id="222" c:userName="chenchenchen"></bean>
+
+    <bean name="student" class="springfromzero.bean.Hello" scope="singleton">
+        <property name="name" value="xiaochenchen"></property>
+    </bean>
+    
+    <bean name="address" class="springfromzero.bean.Address" scope="prototype"></bean>
+   
+   
+    <bean name="111" class="springfromzero.dao.UserDaoMysqlImpl" />
+    <bean name="userDao" class="springfromzero.dao.UserDaoOracleImpl" />
+    <bean name="service" class="springfromzero.service.UserServiceImpl" autowire="constructor"/>-->
+</beans>
