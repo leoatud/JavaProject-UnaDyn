@@ -13,7 +13,7 @@ import org.apache.ibatis.annotations.Param;
  *
  * @author cliu
  */
-public interface BlogMapper {
+public interface BlogMapperOrigin {
 
    Blog selectBlog(Integer id);
 

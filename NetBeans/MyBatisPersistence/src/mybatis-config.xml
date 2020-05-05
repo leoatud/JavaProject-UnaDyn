@@ -18,7 +18,7 @@
     </environments >
 
     <mappers>
-        <mapper resource="mybatis/mapper/BlogMapper.xml"/>
+        <mapper resource="mapper/BlogMapper.xml"/>
         <!--<package name="mybatis.mapper" />-->
     </mappers>
 

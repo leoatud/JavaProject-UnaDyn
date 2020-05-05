@@ -6,11 +6,11 @@
 package mabatis.mapper;
 
 import java.util.List;
-import mybatis.mapper.BlogMapper;
 import mybatis.pojo.Blog;
 import mybatis.util.MyBatisUtil;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
+import mybatis.mapper.BlogMapperOrigin;
 
 /**
  *
@@ -23,7 +23,7 @@ public class BlogMapperTest {
 
       SqlSession session = MyBatisUtil.getSqlSession();
 
-      BlogMapper blogMapper = session.getMapper(BlogMapper.class);
+      BlogMapperOrigin blogMapper = session.getMapper(BlogMapperOrigin.class);
       Blog blog = blogMapper.selectBlog(1);
 
       session.close();
@@ -35,7 +35,7 @@ public class BlogMapperTest {
    public void testSelectBlogByTitle() {
       SqlSession session = MyBatisUtil.getSqlSession();
 
-      BlogMapper blogMapper = session.getMapper(BlogMapper.class);
+      BlogMapperOrigin blogMapper = session.getMapper(BlogMapperOrigin.class);
       List<Blog> blog = blogMapper.selectByTitle("%h%");
 
       session.close();
@@ -49,7 +49,7 @@ public class BlogMapperTest {
    public void testSelectBlogByPage() {
       SqlSession session = MyBatisUtil.getSqlSession();
 
-      BlogMapper blogMapper = session.getMapper(BlogMapper.class);
+      BlogMapperOrigin blogMapper = session.getMapper(BlogMapperOrigin.class);
       List<Blog> blog = blogMapper.selectBlogByPage(2, 2, 1, 1);
 
       session.close();
@@ -63,7 +63,7 @@ public class BlogMapperTest {
    public void testInsertBlog() {
       SqlSession session = MyBatisUtil.getSqlSession();
 
-      BlogMapper blogMapper = session.getMapper(BlogMapper.class);
+      BlogMapperOrigin blogMapper = session.getMapper(BlogMapperOrigin.class);
 
       Blog blog = new Blog("62", 343, "eat", Boolean.TRUE, "u11gly");
 
@@ -78,7 +78,7 @@ public class BlogMapperTest {
    public void testUpdateBlog() {
       SqlSession session = MyBatisUtil.getSqlSession();
 
-      BlogMapper blogMapper = session.getMapper(BlogMapper.class);
+      BlogMapperOrigin blogMapper = session.getMapper(BlogMapperOrigin.class);
 
       Blog blog = new Blog("62", 343, "eat", Boolean.TRUE, "u11gly");
 
