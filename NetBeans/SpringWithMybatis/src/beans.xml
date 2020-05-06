@@ -1,0 +1,63 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop = "http://www.springframework.org/schema/aop"
+       xmlns:tx = "http://www.springframework.org/schema/tx"
+
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans
+          http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd
+       http://www.springframework.org/schema/tx
+       http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
+        <property name="url" value="jdbc:mysql://localhost:3306/blog" />
+        <property name="username" value="root" />
+        <property name="password" value="" />
+    </bean>
+    
+    
+<!--    <bean id="txManager" class="org.springframework.jdbc.datasource.DataSource">
+        <property name="dataSource" ref="dataSource" />
+    </bean> 
+    
+    <tx:advice id="txAdvice" transaction-manager="txManager" >
+        <tx:attributes>
+            <tx:method name="add" propagation="REQUIRED" />
+            <tx:method name="*" propagation="REQUIRED" />
+            <tx:method name="get" read-only="true" />
+            
+        </tx:attributes>
+    </tx:advice>
+    
+    <aop:config>
+        <aop:pointcut id="pointcut" expression="execution(* dao.*.*(..))" />
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="pointcut" />
+    </aop:config>     -->
+    
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource" />
+        <!--<property name="configLocation" value="classpath:mybatis.cfg.xml" />-->
+        <property name="mapperLocations" value="vo/*.mapper.xml" />
+    </bean>
+    
+<!--    <bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate" >
+        <constructor-arg index="0" ref="sqlSessionFactory"></constructor-arg>
+    </bean>-->
+    
+    <bean id="userService" class="service.UserServiceImpl">
+        <property name="userMapper" ref="userMapper" />
+    </bean>
+    
+    <bean id="userMapper" class="org.mybatis.spring.mapper.MapperFactoryBean" >
+        <property name="mapperInterface" value="dao.UserMapper" />
+        <property name="sqlSessionFactory" ref="sqlSessionFactory" />
+    </bean>
+    
+    
+    
+   
+</beans>

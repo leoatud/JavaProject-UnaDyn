@@ -3,19 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package springwithmybatis;
+package service;
+
+import java.util.List;
+import pojo.User;
 
 /**
  *
  * @author cliu
  */
-public class SpringWithMybatis {
-
-   /**
-    * @param args the command line arguments
-    */
-   public static void main(String[] args) {
-      // TODO code application logic here
-   }
+public interface UserService {
    
+   public List<User> getUsers();
 }
