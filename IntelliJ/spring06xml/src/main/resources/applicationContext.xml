@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/c
+        http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+
+    <!--    <context:component-scan base-package="com.secondspring.demo" />-->
+
+
+    <bean id="song1" class="com.secondspring.demo.soundsystem.Song">
+        <property name="title" value="haha"/>
+        <property name="duration" value="10"/>
+    </bean>
+
+<!--    <bean id="song2" class="com.secondspring.demo.soundsystem.Song">-->
+<!--        <constructor-arg index="0" value="haha1"/>-->
+<!--        <constructor-arg index="1" value="100"/>-->
+<!--    </bean>-->
+
+
+    <bean id="cd1" class="com.secondspring.demo.soundsystem.CompactDisc">
+        <constructor-arg name="title" value="I do"/>
+        <constructor-arg name="artist" value="Jay chou"/>
+        <constructor-arg name="tracks">
+            <list>
+                <ref bean="song1"/>
+            </list>
+        </constructor-arg>
+    </bean>
+
+
+    <!--    <bean id="cd" class="com.secondspring.demo.soundsystem.CompactDisc">-->
+
+    <!--    </bean>-->
+    <!--    <bean id="cd1" class="com.secondspring.demo.soundsystem.CompactDisc"/>-->
+
+    <!--    <bean id="player" class="com.secondspring.demo.soundsystem.CDPlayer" >-->
+    <!--        <constructor-arg ref="cd1"/>-->
+    <!--    </bean>-->
+
+
+    <!--    <bean id="player2" class="com.secondspring.demo.soundsystem.CDPlayer" />-->
+</beans>

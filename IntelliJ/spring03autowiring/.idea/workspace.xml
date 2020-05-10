@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d4881a4f-1113-457a-85d5-6bc4d65e73e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../spring01quickstart/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01quickstart/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01quickstart/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01quickstart/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01quickstart/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01quickstart/spring01quickstart.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01quickstart/src/main/java/hello/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01quickstart/src/main/java/hello/ApplicationSpring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01quickstart/src/main/java/hello/MessagePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01quickstart/src/main/java/hello/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01quickstart/target/classes/hello/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01quickstart/target/classes/hello/ApplicationSpring.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01quickstart/target/classes/hello/MessagePrinter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01quickstart/target/classes/hello/MessageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demoApplication.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring03autowiring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/soundsystem/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/soundsystem/CdPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/soundsystem/CompactDisc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/soundsystem/Power.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/soundsystem/ApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/spring03autowiring.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/soundsystem/AppConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/soundsystem/CdPlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/soundsystem/CompactDisc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/soundsystem/Power.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/soundsystem/ApplicationTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04wiring_interface/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04wiring_interface/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04wiring_interface/spring04wiring_interface.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring02quickstart_xml/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/main/java/com/unadyn/engineering/software/test/TestApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/main/java/com/unadyn/engineering/software/test/component/NeoProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/main/java/com/unadyn/engineering/software/test/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/main/java/com/unadyn/engineering/software/test/controller/HelloWorldController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/main/java/com/unadyn/engineering/software/test/dao/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/main/java/com/unadyn/engineering/software/test/dao/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/main/java/com/unadyn/engineering/software/test/dao/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/main/java/com/unadyn/engineering/software/test/dao/impl/UserDaoMysqlImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/main/java/com/unadyn/engineering/software/test/dao/impl/UserDaoOracleImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/main/java/com/unadyn/engineering/software/test/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/main/java/com/unadyn/engineering/software/test/service/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/main/java/com/unadyn/engineering/software/test/test/UserDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/test/java/com/unadyn/engineering/software/test/HelloTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/test/java/com/unadyn/engineering/software/test/TestApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/test/java/com/unadyn/engineering/software/test/UserRepositoryTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/MyBatisPersistence/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../NetBeans/MyBatisPersistence/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/MyBatisPersistence/test/GeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NetBeans/MyBatisPersistence/test/GeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/lib/aspectjrt-1.6.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/lib/spring-aop-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/lib/spring-aspects-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/lib/spring-beans-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/lib/spring-context-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/lib/spring-context-support-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/lib/spring-core-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/lib/spring-expression-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/lib/spring-jdbc-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/lib/spring-orm-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/lib/spring-tx-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/lib/spring-web-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/lib/spring-webmvc-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Readme.txt" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="32" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/soundsystem/ApplicationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/soundsystem/Power.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#99#100#0" expanded="true" />
+                <element signature="e#135#136#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/soundsystem/CompactDisc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+              <folding>
+                <element signature="e#74#75#0" expanded="true" />
+                <element signature="e#110#111#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/soundsystem/CdPlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="469">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#129#130#0" expanded="true" />
+                <element signature="e#165#166#0" expanded="true" />
+                <element signature="e#536#537#0" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/soundsystem/AppConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/soundsystem/AppConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/soundsystem/Application.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/soundsystem/ApplicationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/soundsystem/Power.java" />
+        <option value="$PROJECT_DIR$/src/main/java/soundsystem/CompactDisc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/soundsystem/CdPlayer.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="440" />
+    <option name="y" value="87" />
+    <option name="width" value="1934" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring03autowiring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring03autowiring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring03autowiring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring03autowiring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring03autowiring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring03autowiring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring03autowiring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring03autowiring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring03autowiring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring03autowiring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring03autowiring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring03autowiring" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ApplicationTest.testPlayer">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="soundsystem.Application" />
+      <module name="spring03autowiring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="soundsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring03autowiring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="soundsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="soundsystem" />
+      <option name="MAIN_CLASS_NAME" value="soundsystem.ApplicationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationTest.testPlayer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring03autowiring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="soundsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="soundsystem" />
+      <option name="MAIN_CLASS_NAME" value="soundsystem.ApplicationTest" />
+      <option name="METHOD_NAME" value="testPlayer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ApplicationTest.testPlayer" />
+        <item itemvalue="JUnit.ApplicationTest" />
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4881a4f-1113-457a-85d5-6bc4d65e73e5" name="Default Changelist" comment="" />
+      <created>1588949910306</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588949910306</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ApplicationTest - 2020.05.08 at 11h 32m 43s.xml">
+      <configuration name="ApplicationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTest - 2020.05.08 at 11h 34m 20s.xml">
+      <configuration name="ApplicationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTest_testPlayer - 2020.05.08 at 11h 37m 58s.xml">
+      <configuration name="ApplicationTest.testPlayer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTest_testPlayer - 2020.05.08 at 11h 38m 43s.xml">
+      <configuration name="ApplicationTest.testPlayer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTest_testPlayer - 2020.05.08 at 11h 40m 07s.xml">
+      <configuration name="ApplicationTest.testPlayer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTest_testPlayer - 2020.05.08 at 11h 42m 10s.xml">
+      <configuration name="ApplicationTest.testPlayer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTest_testPlayer - 2020.05.08 at 11h 44m 35s.xml">
+      <configuration name="ApplicationTest.testPlayer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTest_testPlayer - 2020.05.08 at 11h 46m 31s.xml">
+      <configuration name="ApplicationTest.testPlayer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTest_testPlayer - 2020.05.08 at 11h 48m 32s.xml">
+      <configuration name="ApplicationTest.testPlayer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTest_testPlayer - 2020.05.08 at 11h 49m 10s.xml">
+      <configuration name="ApplicationTest.testPlayer" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24946696" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/soundsystem/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="85" selection-start-line="10" selection-start-column="85" selection-end-line="10" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/soundsystem/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/soundsystem/Power.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/soundsystem/CompactDisc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <folding>
+            <element signature="e#74#75#0" expanded="true" />
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/soundsystem/ApplicationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/soundsystem/CdPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="32" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

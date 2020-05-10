@@ -37,13 +37,32 @@ public class GeneratorTest {
    }
 
    @Test
-   public void testDel ete() {
+   public void testDelete() {
       SqlSession session = MyBatisUtil.getSqlSession();
       BlogMapper blogMapper = session.getMapper(BlogMapper.class);
 
       int count = blogMapper.deleteByPrimaryKey(2);
 
       System.out.println("executeeee: " + count);
+      session.commit();
+      session.close();
+
+   }
+
+   @Test
+   public void testSelectBlogCacheLevelOne() {
+      SqlSession session = MyBatisUtil.getSqlSession();
+      BlogMapper blogMapper = session.getMapper(BlogMapper.class);
+
+      Blog blog1 = blogMapper.selectByPrimaryKey(3);
+      System.out.println("blog1: " + blog1);
+
+      blog1.setAuthorId(222);
+      int result = blogMapper.updateByPrimaryKey(blog1);
+
+      Blog blog2 = blogMapper.selectByPrimaryKey(3);
+      System.out.println("blog2: " + blog2);
+
       session.commit();
       session.close();
 

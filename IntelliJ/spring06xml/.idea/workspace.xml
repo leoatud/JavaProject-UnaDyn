@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="685ea69f-ff54-41e2-87c9-1e4cc2c54ef8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../spring01quickstart/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01quickstart/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01quickstart/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01quickstart/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01quickstart/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01quickstart/spring01quickstart.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01quickstart/src/main/java/hello/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01quickstart/src/main/java/hello/ApplicationSpring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01quickstart/src/main/java/hello/MessagePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01quickstart/src/main/java/hello/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01quickstart/target/classes/hello/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01quickstart/target/classes/hello/ApplicationSpring.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01quickstart/target/classes/hello/MessagePrinter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01quickstart/target/classes/hello/MessageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03autowiring/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03autowiring/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03autowiring/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03autowiring/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03autowiring/demoApplication.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03autowiring/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03autowiring/spring03autowiring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03autowiring/src/main/java/soundsystem/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03autowiring/src/main/java/soundsystem/CdPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03autowiring/src/main/java/soundsystem/CompactDisc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03autowiring/src/main/java/soundsystem/Power.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03autowiring/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03autowiring/src/test/java/soundsystem/ApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03autowiring/target/classes/META-INF/spring03autowiring.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03autowiring/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03autowiring/target/classes/soundsystem/AppConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03autowiring/target/classes/soundsystem/CdPlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03autowiring/target/classes/soundsystem/CompactDisc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03autowiring/target/classes/soundsystem/Power.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03autowiring/target/test-classes/soundsystem/ApplicationTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04wiring_interface/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04wiring_interface/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04wiring_interface/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04wiring_interface/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04wiring_interface/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04wiring_interface/demoApplication.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04wiring_interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04wiring_interface/spring04wiring_interface.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04wiring_interface/src/main/java/com/secondspring/demo/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04wiring_interface/src/main/java/com/secondspring/demo/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04wiring_interface/src/main/java/com/secondspring/demo/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04wiring_interface/src/main/java/com/secondspring/demo/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04wiring_interface/src/main/java/com/secondspring/demo/service/impl/UserServiceFestival.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04wiring_interface/src/main/java/com/secondspring/demo/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04wiring_interface/src/main/java/com/secondspring/demo/web/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04wiring_interface/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04wiring_interface/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04wiring_interface/src/test/java/com/secondspring/demo/service/UserServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04wiring_interface/src/test/java/com/secondspring/demo/web/UserControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04wiring_interface/target/classes/com/secondspring/demo/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04wiring_interface/target/classes/com/secondspring/demo/service/impl/UserServiceFestival.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04wiring_interface/target/classes/com/secondspring/demo/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04wiring_interface/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04wiring_interface/target/test-classes/com/secondspring/demo/service/UserServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring05javaconfig/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring05javaconfig/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring05javaconfig/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring05javaconfig/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring05javaconfig/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring05javaconfig/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring05javaconfig/spring05javaconfig.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring05javaconfig/src/main/java/com/secondspring/demo/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring05javaconfig/src/main/java/com/secondspring/demo/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring05javaconfig/src/main/java/com/secondspring/demo/dao/impl/UserDaoCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring05javaconfig/src/main/java/com/secondspring/demo/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring05javaconfig/src/main/java/com/secondspring/demo/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring05javaconfig/src/main/java/com/secondspring/demo/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring05javaconfig/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring05javaconfig/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring05javaconfig/src/test/java/com/secondspring/demo/dao/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ApplicationString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/secondspring/demo/soundsystem/CDPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/secondspring/demo/soundsystem/CompactDisc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/secondspring/demo/soundsystem/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/secondspring/demo/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring07scope/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring07scope/spring07scope.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring02quickstart_xml/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring02quickstart_xml/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/main/java/com/unadyn/engineering/software/test/TestApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/main/java/com/unadyn/engineering/software/test/component/NeoProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/main/java/com/unadyn/engineering/software/test/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/main/java/com/unadyn/engineering/software/test/controller/HelloWorldController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/main/java/com/unadyn/engineering/software/test/dao/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/main/java/com/unadyn/engineering/software/test/dao/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/main/java/com/unadyn/engineering/software/test/dao/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/main/java/com/unadyn/engineering/software/test/dao/impl/UserDaoMysqlImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/main/java/com/unadyn/engineering/software/test/dao/impl/UserDaoOracleImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/main/java/com/unadyn/engineering/software/test/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/main/java/com/unadyn/engineering/software/test/service/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/main/java/com/unadyn/engineering/software/test/test/UserDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/test/java/com/unadyn/engineering/software/test/HelloTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/test/java/com/unadyn/engineering/software/test/TestApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/test/java/com/unadyn/engineering/software/test/UserRepositoryTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/MyBatisPersistence/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../NetBeans/MyBatisPersistence/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/MyBatisPersistence/test/GeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../NetBeans/MyBatisPersistence/test/GeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/lib/aspectjrt-1.6.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/lib/spring-aop-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/lib/spring-aspects-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/lib/spring-beans-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/lib/spring-context-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/lib/spring-context-support-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/lib/spring-core-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/lib/spring-expression-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/lib/spring-jdbc-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/lib/spring-orm-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/lib/spring-tx-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/lib/spring-web-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/lib/spring-webmvc-4.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../NetBeans/SpringFromZero/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Readme.txt" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/secondspring/demo/AppTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/secondspring/demo/soundsystem/CDPlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+              <folding>
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/secondspring/demo/soundsystem/CompactDisc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#96#97#0" expanded="true" />
+                <element signature="e#132#133#0" expanded="true" />
+                <element signature="e#193#194#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/secondspring/demo/soundsystem/Song.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+              <folding>
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/ApplicationString.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/secondspring/demo/soundsystem/CDPlayer.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/secondspring/demo/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/secondspring/demo/soundsystem/Song.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/secondspring/demo/soundsystem/CompactDisc.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="447" />
+    <option name="y" value="83" />
+    <option name="width" value="1934" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring06xml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring06xml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring06xml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring06xml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring06xml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring06xml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring06xml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring06xml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring06xml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring06xml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="soundsystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring06xml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring06xml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring06xml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring06xml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring06xml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring06xml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring06xml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring06xml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring06xml" type="58d84e3e:PackageViewProjectNode" />
+              <item name="spring06xml" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="spring06xml" type="58d84e3e:PackageViewProjectNode" />
+              <item name="spring06xml" type="616d4139:PackageViewModuleNode" />
+              <item name="com.secondspring.demo" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="spring06xml" type="58d84e3e:PackageViewProjectNode" />
+              <item name="spring06xml" type="616d4139:PackageViewModuleNode" />
+              <item name="com.secondspring.demo" type="1f31426a:PackageElementNode" />
+              <item name="soundsystem" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cliu\Desktop\JavaProject\Spring\IntelliJ\spring06xml\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.AppTest.play">
+    <configuration name="ApplicationString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ApplicationString" />
+      <module name="spring06xml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.play" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring06xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.secondspring.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.secondspring.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.secondspring.demo.AppTest" />
+      <option name="METHOD_NAME" value="play" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testPlay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring06xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.secondspring.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.secondspring.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.secondspring.demo.AppTest" />
+      <option name="METHOD_NAME" value="testPlay" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AppTest.play" />
+        <item itemvalue="JUnit.AppTest.testPlay" />
+        <item itemvalue="Application.ApplicationString" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="685ea69f-ff54-41e2-87c9-1e4cc2c54ef8" name="Default Changelist" comment="" />
+      <created>1589078011179</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589078011179</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AppTest_testPlay - 2020.05.09 at 23h 10m 21s.xml">
+      <configuration name="AppTest.testPlay" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testPlay - 2020.05.09 at 23h 11m 27s.xml">
+      <configuration name="AppTest.testPlay" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testPlay - 2020.05.09 at 23h 19m 38s.xml">
+      <configuration name="AppTest.testPlay" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_play - 2020.05.09 at 23h 50m 29s.xml">
+      <configuration name="AppTest.play" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_play - 2020.05.10 at 00h 01m 15s.xml">
+      <configuration name="AppTest.play" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_play - 2020.05.10 at 00h 07m 17s.xml">
+      <configuration name="AppTest.play" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_play - 2020.05.10 at 00h 09m 27s.xml">
+      <configuration name="AppTest.play" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24946696" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ApplicationString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/secondspring/demo/soundsystem/Song.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <folding>
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/secondspring/demo/soundsystem/CDPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/secondspring/demo/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/secondspring/demo/soundsystem/CompactDisc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#96#97#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>spring06xml</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: commons-logging:commons-logging:1.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
