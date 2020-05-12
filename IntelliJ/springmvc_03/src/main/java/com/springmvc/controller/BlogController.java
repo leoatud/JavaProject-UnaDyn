@@ -41,6 +41,6 @@ public class BlogController {
 
     @RequestMapping("/delete")
     public String deletePost(){
-
+        return "index";
     }
 }

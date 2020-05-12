@@ -1,0 +1,38 @@
+https://www.bilibili.com/video/av15875305/?p=85
+
+https://www.bilibili.com/video/av33230069/?spm_id_from=333.788.videocard.4
+
+ACE-CPT:::
+https://www.ptpioneer.com/study-ace/
+
+Paul White Wireless EasyLink IP address:
+172.16.16.86
+
+Spring:::
+https://www.youtube.com/watch?v=vQZxjBXbIB8&list=PLwDQt7s1o9J7K5_QcLeB7rGmI-p1xUf9e&index=14
+
+
+ED Center:
+1179181289
+56f9vw
+172.16.16.13
+
+
+TODO: 
+
+memory leak check
+manual (temperature is user default temperature, if international then ... if imperial then...)
+	unit
+	setup firewall rules
+
+
+get value --> first round to double with n (normally=1) decimal
+then * (10^decimal) 
+send through modbus
+cast in modbus by using scaling
+
+by using LOHI: 2 registers: 	
+	hi register need to multiply by 2^16, when sending this value using bit shift
+
+WriteSingleRegister(n, xx); --> address: n+1 + 40000
+WriteLOHIRegister(n,xxx); --> 

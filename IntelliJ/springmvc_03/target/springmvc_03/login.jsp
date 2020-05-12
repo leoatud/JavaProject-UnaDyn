@@ -11,6 +11,7 @@
     <title>Login</title>
 </head>
 <body>
+${param.msg}
 <form action="${pageContext.request.contextPath}/user/login/logic" method="post">
     blog-title: <input type="text" name="title"><br>
     blog-author_id: <input type="text" name="authod_id"><br>

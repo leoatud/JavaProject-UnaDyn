@@ -37,13 +37,38 @@
         <filter-name>encoding</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
-  
-  <listener>
-    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-  </listener>
-  <context-param>
-    <param-name>contextConfigLocation</param-name>
-    <param-value>classpath:applicationContext.xml</param-value>
-  </context-param>
+
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>classpath:applicationContext.xml</param-value>
+    </context-param>
+
+    <servlet>
+        <servlet-name>cap</servlet-name>
+        <servlet-class>com.google.code.kaptcha.servlet.KaptchaServlet</servlet-class>
+        <init-param>
+            <param-name>kaptch.textproducer.char.length</param-name>
+            <param-value>4</param-value>
+        </init-param>
+        <init-param>
+            <param-name>kaptch.textproducer.char.string</param-name>
+            <param-value>qwertyuiopasdfghjkzxcvbnm</param-value>
+        </init-param>
+        <init-param>
+            <param-name>kaptcha.background.clear.to</param-name>
+            <param-value>211,229,237</param-value>
+        </init-param>
+        <init-param>
+            <param-name>kaptcha.session.key</param-name>
+            <param-value>captch</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>cap</servlet-name>
+        <url-pattern>/captcha</url-pattern>
+    </servlet-mapping>
 </web-app>
 
